@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+header button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#title{
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#linesBtn{
+    transform: rotate(90deg);
+}
+
+
+#pomodoroContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #0e0e0eee;
+}
+
+
+#timer{
+    font-size: clamp(60px, 8vw, 120px);
+    font-weight: 300;
+}
+
+#btnContainer{
+    display: flex;
+    gap: 30px;
+}
+
+
+#startBtn{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#startBtn:hover{
+    transform: scale(1.2);
+    background-color: rgb(112, 250, 112);
+}
+
+#startBtn:active {
+    transform: scale(0.95);
+    background-color: rgb(0, 174, 20);
+}
+
+#resetBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#resetBtn:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 137, 137);
+}
+
+#resetBtn:active{
+    transform: scale(0.95);
+    background-color: rgb(255, 34, 34)
+}
+
+#chooseTimeContainer{
+    display: flex;
+}
+
+#option1Btn{
+    background-color: #1a1a1aee;
+    color: white;
+    border: none;
+    border-right: white 2px solid;
+    padding: 15px 45px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#option1Btn:hover{
+    background-color: #000;
+}
+
+#option1Btn:active{
+    transform: scale(0.95);
+}
+
+#option2Btn{
+    background-color: #1a1a1aee;
+    color: white;
+    border: none;
+    padding: 15px 45px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#option2Btn:hover{
+    background-color: #000;
+}
+
+#option2Btn:active{
+    transform: scale(0.95);
+}
+
+#modeContainer{
+    display: flex;
+}
+
+#workBtn{
+    background-color: #1a1a1aee;
+    color: white;
+    border: none;
+    border-right: white 2px solid;
+    padding: 15px 45px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#workBtn:hover{
+    background-color: #000;
+}
+
+#workBtn:active{
+    transform: scale(0.95);
+}
+
+#breakBtn{
+    background-color: #1a1a1aee;
+    color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#breakBtn:hover{
+    background-color: #000;
+}
+
+#breakBtn:active{
+    transform: scale(0.95);
+}
+
