@@ -2,6 +2,8 @@
 
 A simple, interactive Pomodoro timer built with HTML, CSS, and Vanilla JavaScript.
 
+https://github.com/user-attachments/assets/b99748f8-fad3-4588-a263-ce5cb4150091
+
 ## Features
 
 - **Work Mode:** Choose between 25 or 50-minute focus sessions.
